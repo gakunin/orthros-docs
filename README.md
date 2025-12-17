@@ -1,2 +1,29 @@
-# orthros-docs
-public documents related to "orthros"
+# Orthrosについて
+
+学認に参加していない機関に所属するユーザに対してアカウントを発行し、Orthrosと連携する一部のSPを利用できるようにします。  
+発行されたアカウントは、一時的・試験的な利用を想定していますが、継続的な利用を妨げるものではありません。  
+学認の参加申請やeduroam JPの参加申請をはじめとして、学認に参加する一部のサービスは、このOrthrosからも利用することができます。  
+※OrthrosはこれまでのOpenIdPの役割を引き継ぎつつ、学認の課題に取り組みます。OpenIdPは提供終了しました。
+
+マニュアル：
+* [利用マニュアル](/docs/利用マニュアル/README.md)
+* [SP管理者向けマニュアル](/docs/SP管理者向けマニュアル/README.md)
+  
+#### このスペースのページ一覧（このページを除く）
+
+* [お知らせ一覧](/docs/お知らせ一覧/README.md)
+* [利用マニュアル](/docs/利用マニュアル/README.md)
+* [SP管理者向けマニュアル](/docs/SP管理者向けマニュアル/README.md)
+    * [1 概要](/docs/SP管理者向けマニュアル/1%20概要/README.md)
+    * [2 Orthrosとの接続依頼方法について](/docs/SP管理者向けマニュアル/2%20Orthrosとの接続依頼方法について/README.md)
+        * [1 Orthrosとの接続依頼方法](/docs/SP管理者向けマニュアル/2%20Orthrosとの接続依頼方法について/1%20Orthrosとの接続依頼方法.md)
+        * [2 Embedded DSへのOrthrosを追加設定](/docs/SP管理者向けマニュアル/2%20Orthrosとの接続依頼方法について/2%20Embedded%20DSへのOrthrosを追加設定.md)
+    * [3 SP管理者で利用する機能について](/docs/SP管理者向けマニュアル/3%20SP管理者で利用する機能について/README.md)
+        * [1 管理対象のSP](/docs/SP管理者向けマニュアル/3%20SP管理者で利用する機能について/1%20管理対象のSP.md)
+        * [2 このSPを利用中のユーザー](/docs/SP管理者向けマニュアル/3%20SP管理者で利用する機能について/2%20このSPを利用中のユーザー.md)
+        * [3 要求する保証レベル](/docs/SP管理者向けマニュアル/3%20SP管理者で利用する機能について/3%20要求する保証レベル.md)
+        * [4 送出属性の設定](/docs/SP管理者向けマニュアル/3%20SP管理者で利用する機能について/4%20送出属性の設定.md)
+    * [4 【補足】SPからOpenIdP関連の設定を取り除く方法](/docs/SP管理者向けマニュアル/4%20【補足】SPからOpenIdP関連の設定を取り除く方法/README.md)
+* [現在OrthrosでログインできるSP](/docs/現在OrthrosでログインできるSP/README.md)
+* [よくある問合せ一覧](/docs/よくある問合せ一覧/README.md)
+* [Orthros ヘルプ](/docs/Orthros%20ヘルプ/README.md)
