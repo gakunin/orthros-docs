@@ -14,10 +14,11 @@
 接続する環境に合わせて以下よりメタデータをダウンロードしてください
 
 表1 メタデータURL一覧
+
 | 環境 | メタデータURL |
 | --- | --- |
 | 本運用環境 | https://core.orthros.gakunin.nii.ac.jp/metadata/orthros-idp-metadata.xml |
-| テスト環境 |https://core-stg.orthros.gakunin.nii.ac.jp/metadata/orthrosstg-idp-metadata.xml |
+| テスト環境 | https://core-stg.orthros.gakunin.nii.ac.jp/metadata/orthrosstg-idp-metadata.xml |
 
 ## 2.Orthrosメタデータの自動更新設定
 
