@@ -24,7 +24,6 @@
 * 学認申請システム
     * [運用フェデ学認申請システム](https://office.gakunin.nii.ac.jp/ProdFed/)
     * [テストフェデ学認申請システム](https://office.gakunin.nii.ac.jp/TestFed/)
-* [教員のための生涯学習プラットフォーム](https://lms.okutep.osaka-kyoiku.ac.jp/)
 * [しぼすけ](https://shibosuke.net/)
 * [デジタルバッジ・パーソナルウォレット](https://wallet.o3edu.jp)
 * [東洋経済デジタルコンテンツライブラリー](https://gakunin.toyokeizai.net/)
