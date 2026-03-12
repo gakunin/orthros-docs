@@ -144,7 +144,6 @@ Orthrosでは1つのアカウントにおいて同一人物が使用するポリ
 | 学認クラウドオンデマンド構築サービス<br>※このサービスの説明は[こちら](https://cloud.gakunin.jp/ocs/)（ログイン方法は各自ご確認ください） | お問い合わせフォームは[こちら](https://cloud.gakunin.jp/ocs/) |
 | 学認クラウドゲートウェイサービス（グループ機能） | お問い合わせフォームは[こちら](https://nii-auth.atlassian.net/wiki/spaces/gakuninmappublic/pages/44532020) |
 | 学認申請システム | お問い合わせフォームは[こちら](https://www.gakunin.jp/contact) |
-| 教員のための生涯学習プラットフォーム | お問い合わせフォームは[こちら](https://o3edu.osaka-kyoiku.ac.jp/contact) |
 | しぼすけ | お問い合わせフォームは[こちら](https://shibosuke.net/shibosuke/contact/) |
 | デジタルバッジ・パーソナルウォレット | お問い合わせフォームは[こちら](https://o3edu.osaka-kyoiku.ac.jp/contact) |
 | 東洋経済デジタルコンテンツライブラリー | お問い合わせフォームは[こちら](https://biz.toyokeizai.net/-/dcl/) |
