@@ -4,6 +4,7 @@
 * [AMEDデータ利活用プラットフォーム運用環境](https://prod-www.cannds.amed.go.jp/)
 * [eduroam JP申請システム](https://office.eduroam.jp)
 * [eduroam JP 認証連携IDサービス](https://federated-id.eduroam.jp)
+* [OZONE-EDU](https://o3edu.osaka-kyoiku.ac.jp/)
 * [GakuNin Federated Computing Services at NII (trial)](https://jupyter.cs.rcos.nii.ac.jp/)
 * [GakuNin RDM](https://support.rdm.nii.ac.jp/)  
     * 所属機関がOrthrosで利用申請をしている場合のみ利用可
