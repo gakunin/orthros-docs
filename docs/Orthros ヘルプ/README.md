@@ -39,7 +39,7 @@
 >なお、今回をもちまして、SAML証明書ローテーションに関する一連の作業は終了となります。
 >期間中は多岐にわたる対応にご協力いただき、誠にありがとうございました。
 >
->　[**【お知らせ一覧】**](/docs/お知らせ一覧/README.md)
+>[【お知らせ一覧】](/docs/お知らせ一覧/README.md)  
 
 
 ## **目次**
@@ -146,15 +146,16 @@ Orthrosでは1つのアカウントにおいて同一人物が使用するポリ
 | AMEDデータ利活用プラットフォーム運用環境 | お問い合わせフォームは[こちら](https://www.amed.go.jp/program/list/14/04/cannds-home.html) |
 | eduroam JP申請システム | お問い合わせフォームは[こちら](https://www.eduroam.jp/for_admin/contact) |
 | eduroam JP 認証連携IDサービス | お問い合わせフォームは[こちら](https://www.eduroam.jp/for_admin/contact) |
+| OZONE-EDU | お問い合わせは下記まで  <br><img src="/images/o3edu-mail.png" width="60%"> |
 | GakuNin Federated Computing Services at NII (trial) | お問い合わせフォームは[こちら](https://rcos.nii.ac.jp/service/cs/) |
 | GakuNin RDM | お問い合わせフォームは[こちら](https://support.rdm.nii.ac.jp/) |
 | meatmail | お問い合わせフォームは[こちら](https://nii-auth.atlassian.net/wiki/spaces/meatmailniiacjp/pages/36274344) |
 | NII研究クラウド | お問い合わせフォームは[こちら](https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=29229288) |
-| NII研究クラウド(abc) | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation.png" width="60%"> |
-| NII研究クラウド(xyz) | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation.png" width="60%"> |
-| NII 研究データ基盤 | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation.png" width="60%"> |
-| STEP10聴講申請システム | お問い合わせは下記まで  <br><img src="/images/STEP10.png" width="60%"> |
-| インタークラウド - Jupyter Notebook | お問い合わせは下記まで  <br><br><img src="/images/nii-cloud-operation.png" width="60%"> |
+| NII研究クラウド(abc) | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
+| NII研究クラウド(xyz) | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
+| NII 研究データ基盤 | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
+| STEP10聴講申請システム | お問い合わせは下記まで  <br><img src="/images/STEP10-mail.png" width="60%"> |
+| インタークラウド - Jupyter Notebook | お問い合わせは下記まで  <br><br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
 | 科学技術の学術情報共有のための双方向コミュニケーションサービス | お問い合わせフォームは[こちら](https://c.yz.yamagata-u.ac.jp/amenity/splash.asp) |
 | 学認LMS | お問い合わせフォームは[こちら](https://contents.nii.ac.jp/lms_support/faq) |
 | 学認クラウドオンデマンド構築サービス<br>※このサービスの説明は[こちら](https://cloud.gakunin.jp/ocs/)（ログイン方法は各自ご確認ください） | お問い合わせフォームは[こちら](https://cloud.gakunin.jp/ocs/) |
