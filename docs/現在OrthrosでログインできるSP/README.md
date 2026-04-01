@@ -29,7 +29,6 @@
 * [デジタルバッジ・パーソナルウォレット](https://wallet.o3edu.jp)
 * [東洋経済デジタルコンテンツライブラリー](https://gakunin.toyokeizai.net/)
 * [豊橋技術科学大学 HPCポータル](https://hpcportal.imc.tut.ac.jp)
-* [豊橋技術科学大学 Moodle](https://lms.imc.tut.ac.jp)
 * （以上、サービス名順）
 
 ※サービスへのリンク先が公開情報でないサービスについてはリンクになっておりません。
