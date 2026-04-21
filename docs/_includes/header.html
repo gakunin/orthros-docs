@@ -1,0 +1,39 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  </div>
+    {%- comment -%}
+  URL階層からパンくずを生成
+  例: /docs/api/v1/ → Home > docs > api > v1（タイトルがあればタイトル表示）
+{%- endcomment -%}
+
+{%- assign crumbs = page.url | remove: site.baseurl | split: "/" -%}
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {%- assign path = "" -%}
+  {%- for c in crumbs -%}
+    {%- if c == "" -%}{%- continue -%}{%- endif -%}
+    {%- assign path = path | append: "/" | append: c -%}
+
+    {%- comment -%}
+      ディレクトリは /xxx/ で終わるURLに寄せる（indexページ想定）
+    {%- endcomment -%}
+    {%- assign is_last = forloop.last -%}
+    {%- assign url_try = path | append: "/" -%}
+
+    {%- assign p = site.pages | where: "url", url_try | first -%}
+    {%- assign label = p.title | default: c | escape -%}
+
+    &nbsp;/&nbsp;
+    {%- if is_last -%}
+      <span aria-current="page">{{ label }}</span>
+    {%- else -%}
+      <a href="{{ url_try | relative_url }}">{{ label }}</a>
+    {%- endif -%}
+  {%- endfor -%}
+</nav>
+</header>
