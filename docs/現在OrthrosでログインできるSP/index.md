@@ -4,6 +4,7 @@
 * [AMEDデータ利活用プラットフォーム運用環境](https://prod-www.cannds.amed.go.jp/)
 * [eduroam JP申請システム](https://office.eduroam.jp)
 * [eduroam JP 認証連携IDサービス](https://federated-id.eduroam.jp)
+* [OZONE-EDU](https://o3edu.osaka-kyoiku.ac.jp/)
 * [GakuNin Federated Computing Services at NII (trial)](https://jupyter.cs.rcos.nii.ac.jp/)
 * [GakuNin RDM](https://support.rdm.nii.ac.jp/)  
     * 所属機関がOrthrosで利用申請をしている場合のみ利用可
@@ -24,12 +25,10 @@
 * 学認申請システム
     * [運用フェデ学認申請システム](https://office.gakunin.nii.ac.jp/ProdFed/)
     * [テストフェデ学認申請システム](https://office.gakunin.nii.ac.jp/TestFed/)
-* [教員のための生涯学習プラットフォーム](https://lms.okutep.osaka-kyoiku.ac.jp/)
 * [しぼすけ](https://shibosuke.net/)
 * [デジタルバッジ・パーソナルウォレット](https://wallet.o3edu.jp)
 * [東洋経済デジタルコンテンツライブラリー](https://gakunin.toyokeizai.net/)
 * [豊橋技術科学大学 HPCポータル](https://hpcportal.imc.tut.ac.jp)
-* [豊橋技術科学大学 Moodle](https://lms.imc.tut.ac.jp)
 * （以上、サービス名順）
 
 ※サービスへのリンク先が公開情報でないサービスについてはリンクになっておりません。
