@@ -1,5 +1,8 @@
+---
+title : Embedded DSへのOrthrosを追加設定
+---
 >[!NOTE]
->先にOrthrosの接続依頼（[1 Orthrosとの接続依頼方法](1%20Orthrosとの接続依頼方法.md)参照）が必要です
+>先にOrthrosの接続依頼（[1 Orthrosとの接続依頼方法](1%20Orthrosとの接続依頼方法)参照）が必要です
 
 下記手順は典型的なShibboleth SPの場合となっておりますので、そうでない場合は適宜読み替えてください。
 

@@ -1,3 +1,7 @@
+---
+title : 4 【補足】SPからOpenIdP関連の設定を取り除く方法
+---
+
 >[!IMPORTANT]
 >本ドキュメントは「OpenIdPからOrthrosへの移行につきましてSP設定追加のお願い」として過去に提供していたものですが、移行期間が終了し不要となりましたので、最後のフェーズのSPからOpenIdP関連の設定を取り除く部分のみ残し他の部分は削除しております。
 
@@ -5,7 +9,7 @@
 
 Embedded DSからOpenIdPのエントリを削除します。加えて、OpenIdPのメタデータ読み込みを停止します。  
 変更箇所については以下を参照してください。  
-⇒[Embedded DSへのOrthrosを追加設定](/docs/SP管理者向けマニュアル/2%20Orthrosとの接続依頼方法について/2%20Embedded%20DSへのOrthrosを追加設定.md)  
+⇒[Embedded DSへのOrthrosを追加設定](/docs/SP管理者向けマニュアル/2%20Orthrosとの接続依頼方法について/2%20Embedded%20DSへのOrthrosを追加設定)  
   
 JavaScriptファイル内の配列 wayf\_additional\_idps に以下のような配列要素があると思いますので、当該行だけを削除してください。
 
