@@ -137,6 +137,7 @@ Orthrosでは1つのアカウントにおいて同一人物が使用するポリ
 | しぼすけ | お問い合わせフォームは[こちら](https://shibosuke.net/shibosuke/contact/) |
 | デジタルバッジ・パーソナルウォレット | お問い合わせフォームは[こちら](https://o3edu.osaka-kyoiku.ac.jp/contact) |
 | 東洋経済デジタルコンテンツライブラリー | お問い合わせフォームは[こちら](https://biz.toyokeizai.net/-/dcl/) |
+| 奈良先端科学技術大学院大学電子ラボノート-ミラーリングサーバー | お問い合わせフォームは[こちら](http://www-dsc.naist.jp/) または、下記まで  <br><img src="/images/naist-eln-mail.png" width="60%">  | 
 
 ### Orthrosお問い合わせ窓口
 お問い合わせフォームは[こちら](https://ui.orthros.gakunin.nii.ac.jp/ja/pages/support)
