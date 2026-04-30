@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  </div>
+
     {%- comment -%}
   URL階層からパンくずを生成
   例: /docs/api/v1/ → Home > docs > api > v1（タイトルがあればタイトル表示）
@@ -36,4 +36,5 @@
     {%- endif -%}
   {%- endfor -%}
 </nav>
+</div>
 </header>
