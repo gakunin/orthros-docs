@@ -6,21 +6,19 @@ title : よくある問合せ一覧
 
 #### Q.認証コードが届きません
 
-<details>
+<details markdown="1">
+<summary>ご回答</summary>
 
-**<summary>ご回答</summary>** 
-
-認証コードは「`noreply@gakunin.nii.ac.jp`」を差出人メールアドレスとして送信されます。  
-・迷惑メールフォルダに振り分けられていないかご確認をお願いします  
-・特定のドメインのみ受信する設定の場合、「`@gakunin.nii.ac.jp`」を指定ドメインに追加してください
+認証コードは「`noreply@gakunin.nii.ac.jp`」を差出人メールアドレスとして送信されます。
+- 迷惑メールフォルダに振り分けられていないかご確認をお願いします
+- 特定のドメインのみ受信する設定の場合、「`@gakunin.nii.ac.jp`」を指定ドメインに追加してください
 
 </details>
 
 #### Q.Orthrosアカウントのパスワードを忘れてしまいました
 
-<details>
-
-**<summary>ご回答</summary>**
+<details markdown="1">
+<summary>ご回答</summary>
 
 サインイン画面の「[パスワードを忘れた場合](/docs/利用マニュアル/#パスワードを忘れた場合)」からパスワードの再設定を行ってください
 

@@ -264,6 +264,22 @@ table {
   }
 }
 
+/**
+ * Details
+ */
+ // 「よくあるご質問」「Orthrosヘルプ」での使用を想定
+details {
+  margin-bottom: 2rem;
+}
+
+h4:has(+ details) {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+/**
+ * Markdown Alerts
+ */
 .markdown-alert p {
   margin-top: 1rem;
   white-space: normal;
