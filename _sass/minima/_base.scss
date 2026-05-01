@@ -40,6 +40,11 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
+ol > li {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  white-space: normal;
+}
 
 
 /**
@@ -258,3 +263,9 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+.markdown-alert p {
+  margin-top: 1rem;
+  white-space: normal;
+}
+
