@@ -54,8 +54,3 @@ exclude:
   #   - vendor/gems/
   #   - vendor/ruby/
   - README.md
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
