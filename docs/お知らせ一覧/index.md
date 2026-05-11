@@ -135,6 +135,9 @@ title : お知らせ一覧
     ③設定の反映  
     shibdをrestartして反映
 
+{% endcapture %}
+
+{% include github-note.html content=body %}
 
 ## 2026/01/19掲載
 
