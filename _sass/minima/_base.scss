@@ -278,3 +278,14 @@ table {
   margin-top: 1rem;
   white-space: normal;
 }
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: #4493f8;
+}
+
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  color: inherit;
+  border-left: 0.25em solid #30363d;
+}
