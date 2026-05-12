@@ -65,6 +65,11 @@ ol > li {
   margin-bottom: 2em;
 }
 
+/* brを持つ箇条書きは内容にまとまりを持たせるため、下方向に余白を設ける */
+li:has(br) {
+  margin-bottom: 2em;
+}
+
 /* 
  * 以下は余白を詰める
  * - brを持たないli：短文（1行）を想定（ ol > li の上書き）
@@ -89,6 +94,10 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
+}
+
+.post-content img {
+  border: 1px solid #ccccccf9;
 }
 
 img.info {
@@ -283,7 +292,7 @@ table {
 /**
  * Details
  */
- // 「よくあるご質問」「Orthrosヘルプ」での使用を想定
+// 「よくあるご質問」「Orthrosヘルプ」での使用を想定
 details {
   margin-bottom: 2rem;
 }
