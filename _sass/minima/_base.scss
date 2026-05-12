@@ -60,10 +60,20 @@ figure,
   margin-bottom: $spacing-unit / 2;
 }
 
+/* 手順（li）ごとにまとまりを持たせるため、下方向に余白を設ける */
 ol > li {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  white-space: normal;
+  margin-bottom: 2em;
+}
+
+/* 
+ * 以下は余白を詰める
+ * - brを持たないli：短文（1行）を想定（ ol > li の上書き）
+ * - ul/ol直前のp：リストの見出し的役割を想定（h2やh3ほどの大きさがないため、余白があると不自然に見える）
+ */
+li:not(:has(br)),
+p:has(+ ul),
+p:has(+ ol) {
+  margin-bottom: 0px;
 }
 
 /**
@@ -88,10 +98,6 @@ img.info {
   max-width: none;
 }
 
-p img {
-  display: block;
-}
-
 /**
  * Figures
  */
@@ -114,7 +120,7 @@ ol {
 li {
   > ul,
   > ol {
-    margin-bottom: 0;
+    margin-bottom: $spacing-unit / 2;
   }
 }
 
