@@ -217,8 +217,10 @@ title : 利用マニュアル
 	{% endcapture %}  
 	{% include github-note.html content=body %}  
 	<img src="/images/画像38.png" width="40%" />  
-	>[!WARNING]
-	>認証コードの入力まで完了しなかった場合は、変更は行われませんのでご注意ください。
+	{% capture body %}
+	認証コードの入力まで完了しなかった場合は、変更は行われませんのでご注意ください。  
+	{% endcapture %}  
+	{% include github-warning.html content=body %}  
 	<img src="/images/画像39.png" width="40%" />
 
 4. メールアドレス検証後、「続行」ボタンを押下します。
