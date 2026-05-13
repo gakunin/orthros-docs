@@ -31,13 +31,13 @@ SP管理権限の付与については申請が必要となります。
 {% endcapture %}  
 {% include github-note.html content=body %}  
 
-1. ユーザー名のプルダウンからSP管理を選択します。
+1. ユーザー名のプルダウンからSP管理を選択します。<br>
     <img src="/images/SPに対しOrthrosが送出する属性の設定-1.png" width="54%">
 
-2. 該当SPの「管理」ボタンをクリックします。
+2. 該当SPの「管理」ボタンをクリックします。<br>
     <img src="/images/SPに対しOrthrosが送出する属性の設定-2.png" width="51.4%">
 
-3. 「送出属性の設定」タブをクリックします。
+3. 「送出属性の設定」タブをクリックします。<br>
     <img src="/images/SPに対しOrthrosが送出する属性の設定-3.png" width="40%">
 
 4. 各設定を行い、「送出属性の更新」ボタンをクリックします。
@@ -47,8 +47,8 @@ SP管理権限の付与については申請が必要となります。
     **ただし、現行システムの制限事項として、eduPersonTargetedID (ePTID)は送出する・しないの設定に関わらず、NameIDとして必ず送出されます。**
     {% endcapture %}  
     {% include github-note.html content=body %}  
-    
-    <img src="/images/SPに対しOrthrosが送出する属性の設定-4.png" width="40%">
+
+    <br><img src="/images/SPに対しOrthrosが送出する属性の設定-4.png" width="40%">
 
 
 表4 項目一覧
