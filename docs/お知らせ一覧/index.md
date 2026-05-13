@@ -155,6 +155,7 @@ title : お知らせ一覧
 ※xIDについては[こちら](https://xid.inc/home)  
 ※xIDアプリについては[こちら](https://xid.inc/application)  
 {% endcapture %}  
+
 {% include github-note.html content=body %}  
 
 
