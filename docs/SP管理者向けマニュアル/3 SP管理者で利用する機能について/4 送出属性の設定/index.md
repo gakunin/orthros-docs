@@ -45,9 +45,10 @@ SP管理権限の付与については申請が必要となります。
     **属性の送出について**  
     各属性にチェックが入っている場合 送出され、チェックが外れている場合 送出されません。  
     **ただし、現行システムの制限事項として、eduPersonTargetedID (ePTID)は送出する・しないの設定に関わらず、NameIDとして必ず送出されます。**
-    <img src="/images/SPに対しOrthrosが送出する属性の設定-4.png" width="40%">
     {% endcapture %}  
     {% include github-note.html content=body %}  
+    
+    <img src="/images/SPに対しOrthrosが送出する属性の設定-4.png" width="40%">
 
 
 表4 項目一覧
