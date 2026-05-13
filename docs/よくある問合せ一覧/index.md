@@ -63,7 +63,7 @@ title : よくある問合せ一覧
 {% capture body %}
 削除を行うと同じメールアドレスでの再登録は出来なくなります
 {% endcapture %}  
-{% include github-note.html content=body %}  
+{% include github-caution.html content=body %}  
 
 </details>
 
