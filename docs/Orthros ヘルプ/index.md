@@ -3,7 +3,18 @@ title : Orthros ヘルプ
 ---
 
 {% capture body %}
-現在のお知らせはありません。<br>
+以下の日時において、xIDのメンテナンスが行われます。  
+それに伴い、xIDを用いたシステムの利用が制限されます。  
+  
+【日時】  
+・2026年5月17日(日)00:00 ～ 03:00
+
+【影響】  
+メンテナンス中は、一時的にxIDアプリがご利用いただけず、メンテナンスモードの表示となります。  
+また、xIDを利用した認証もご利用いただけません。  
+※xIDについては[こちら](https://xid.inc/home)  
+※xIDアプリについては[こちら](https://xid.inc/application)   
+
 [【お知らせ一覧】](/docs/お知らせ一覧/)  
 {% endcapture %}  
 {% include github-note.html content=body %}  
@@ -120,16 +131,16 @@ Orthrosでは1つのアカウントにおいて同一人物が使用するポリ
 | AMEDデータ利活用プラットフォーム運用環境 | お問い合わせフォームは[こちら](https://www.amed.go.jp/program/list/14/04/cannds-home.html) |
 | eduroam JP申請システム | お問い合わせフォームは[こちら](https://www.eduroam.jp/for_admin/contact) |
 | eduroam JP 認証連携IDサービス | お問い合わせフォームは[こちら](https://www.eduroam.jp/for_admin/contact) |
-| OZONE-EDU | お問い合わせは下記まで  <br><img src="/images/o3edu-mail.png" width="60%"> |
+| OZONE-EDU | お問い合わせは下記まで<br><img src="/images/o3edu-mail.png" class="mail"> |
 | GakuNin Federated Computing Services at NII (trial) | お問い合わせフォームは[こちら](https://rcos.nii.ac.jp/service/cs/) |
 | GakuNin RDM | お問い合わせフォームは[こちら](https://support.rdm.nii.ac.jp/) |
 | meatmail | お問い合わせフォームは[こちら](https://nii-auth.atlassian.net/wiki/spaces/meatmailniiacjp/pages/36274344) |
 | NII研究クラウド | お問い合わせフォームは[こちら](https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=29229288) |
-| NII研究クラウド(abc) | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
-| NII研究クラウド(xyz) | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
-| NII 研究データ基盤 | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
-| STEP10聴講申請システム | お問い合わせは下記まで  <br><img src="/images/STEP10-mail.png" width="60%"> |
-| インタークラウド - Jupyter Notebook | お問い合わせは下記まで  <br><br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
+| NII研究クラウド(abc) | お問い合わせは下記まで<br><img src="/images/nii-cloud-operation-mail.png" class="mail"> |
+| NII研究クラウド(xyz) | お問い合わせは下記まで<br><img src="/images/nii-cloud-operation-mail.png" class="mail"> |
+| NII 研究データ基盤 | お問い合わせは下記まで<br><img src="/images/nii-cloud-operation-mail.png" class="mail"> |
+| STEP10聴講申請システム | お問い合わせは下記まで<br><img src="/images/STEP10-mail.png" class="mail"> |
+| インタークラウド - Jupyter Notebook | お問い合わせは下記まで<br><img src="/images/nii-cloud-operation-mail.png" class="mail"> |
 | 科学技術の学術情報共有のための双方向コミュニケーションサービス | お問い合わせフォームは[こちら](https://c.yz.yamagata-u.ac.jp/amenity/splash.asp) |
 | 学認LMS | お問い合わせフォームは[こちら](https://contents.nii.ac.jp/lms_support/faq) |
 | 学認クラウドオンデマンド構築サービス<br>※このサービスの説明は[こちら](https://cloud.gakunin.jp/ocs/)（ログイン方法は各自ご確認ください） | お問い合わせフォームは[こちら](https://cloud.gakunin.jp/ocs/) |
@@ -138,6 +149,7 @@ Orthrosでは1つのアカウントにおいて同一人物が使用するポリ
 | しぼすけ | お問い合わせフォームは[こちら](https://shibosuke.net/shibosuke/contact/) |
 | デジタルバッジ・パーソナルウォレット | お問い合わせフォームは[こちら](https://o3edu.osaka-kyoiku.ac.jp/contact) |
 | 東洋経済デジタルコンテンツライブラリー | お問い合わせフォームは[こちら](https://biz.toyokeizai.net/-/dcl/) |
+| 奈良先端科学技術大学院大学電子ラボノート-ミラーリングサーバー | お問い合わせは下記まで<br><img src="/images/naist-eln-mail.png" class="mail"> |
 
 ### Orthrosお問い合わせ窓口
 お問い合わせフォームは[こちら](https://ui.orthros.gakunin.nii.ac.jp/ja/pages/support)

@@ -100,6 +100,13 @@ img {
   border: 1px solid #ccccccf9;
 }
 
+img.mail {
+  max-width: none;
+  border: none;
+  height: 1em;
+  width: auto;
+}
+
 img.info {
   height: 20em;
   width: auto;
