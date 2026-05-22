@@ -3,18 +3,7 @@ title : Orthros ヘルプ
 ---
 
 {% capture body %}
-以下の日時において、xIDのメンテナンスが行われます。  
-それに伴い、xIDを用いたシステムの利用が制限されます。  
-  
-【日時】  
-・2026年5月17日(日)00:00 ～ 03:00
-
-【影響】  
-メンテナンス中は、一時的にxIDアプリがご利用いただけず、メンテナンスモードの表示となります。  
-また、xIDを利用した認証もご利用いただけません。  
-※xIDについては[こちら](https://xid.inc/home)  
-※xIDアプリについては[こちら](https://xid.inc/application)   
-
+現在のお知らせはありません。
 [【お知らせ一覧】](/docs/お知らせ一覧/)  
 {% endcapture %}  
 {% include github-note.html content=body %}  

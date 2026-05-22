@@ -104,7 +104,7 @@ Embedded DSの設定が記述されているJavaScriptファイルの wayf_addit
 | テスト環境 | https://core-stg.orthros.gakunin.nii.ac.jp/idp |
 
 以下のようにDSに所属機関選択肢として「Orthros」が表示され、「Orthros」を選択後にOrthrosのサインイン画面が表示され、認証可能であれば設定完了となります  
-（Orthros接続申し込みが未処理の場合、Orthrosの画が異なる場合があります）
+（Orthros接続申し込みが未処理の場合、Orthrosの画面が異なる場合があります）
 
 [画面イメージ]
 
