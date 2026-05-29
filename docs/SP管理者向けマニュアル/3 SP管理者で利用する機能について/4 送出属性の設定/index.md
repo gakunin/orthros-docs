@@ -9,7 +9,7 @@ title : 4 送出属性の設定
 OrthrosからSPに対して送出されるユーザー属性について、送出する／しないを設定することが出来ます。
 {% capture body %}
 SPとの接続を実施する際にSPが必要とする属性を本機能により設定する必要があります。不要な属性についてはチェックを外してください。
-初期設定としては eduPersonPrincipalName (ePPN) のみチェックされている状態となります。
+初期設定としては eduPersonPrincipalName (ePPN) と eduPersonTargetedID (ePTID) がチェックされている状態となります。
 必要に応じて追加・変更を行ってください。
 {% endcapture %}  
 {% include github-warning.html content=body %}  
