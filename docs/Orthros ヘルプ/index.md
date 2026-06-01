@@ -3,7 +3,7 @@ title : Orthros ヘルプ
 ---
 
 {% capture body %}
-現在のお知らせはありません。
+現在のお知らせはありません。  
 [【お知らせ一覧】](/docs/お知らせ一覧/)  
 {% endcapture %}  
 {% include github-note.html content=body %}  

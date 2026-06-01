@@ -3,7 +3,7 @@ title: Embedded DSへのOrthrosを追加設定
 ---
 
 {% capture body %}
-先にOrthrosの接続依頼（[1 Orthrosとの接続依頼方法](1%20Orthrosとの接続依頼方法)参照）が必要です
+先にOrthrosの接続依頼（[1 Orthrosとの接続依頼方法](/docs/SP管理者向けマニュアル/2%20Orthrosとの接続依頼方法について/1%20Orthrosとの接続依頼方法/)参照）が必要です
 {% endcapture %}  
 {% include github-note.html content=body %}  
 
