@@ -61,13 +61,15 @@ figure,
 }
 
 .post-content h1,
-.post-content h2 {
+.post-content h2,
+.post-content h3 {
   cursor: pointer;
   border-bottom: 1px solid #ccccccf9;
 }
 
-.post-content h1 strong:hover,
-.post-content h2 strong:hover {
+.post-content h1:hover,
+.post-content h2:hover,
+.post-content h3:hover {
   color:$brand-color;
 }
 
