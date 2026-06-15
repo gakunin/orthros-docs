@@ -10,14 +10,11 @@ title : 3 要求する保証レベル
 
 ## 概要
 
----
-
 SPがユーザーに対して要求する保証レベルを設定することが出来ます。  
 SPからOrthrosに対し認証リクエストが行われた際、対象のユーザーがこの機能により設定されたIAL/AALの規定値を満たしていなければ、Orthrosはリクエストに対し成功レスポンスを返却しません。
 
 ## 手順
 
----
 {% capture body %}
 [Orthros マイページ](https://ui.orthros.gakunin.nii.ac.jp)にログインの上確認をお願いします。  
 ※テスト環境の場合は(https://ui-stg.orthros.gakunin.nii.ac.jp)  となります。  

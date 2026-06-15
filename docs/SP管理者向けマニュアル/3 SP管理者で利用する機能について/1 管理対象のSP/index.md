@@ -3,13 +3,10 @@ title : 1 管理対象のSP
 ---
 ## 概要
 
----
-
 自身がSP管理者となっているSPの一覧を確認出来ます。
 
 ## 手順
 
----
 {% capture body %}
 [Orthros マイページ](https://ui.orthros.gakunin.nii.ac.jp)にログインの上確認をお願いします。  
 ※テスト環境の場合は(https://ui-stg.orthros.gakunin.nii.ac.jp)  となります。  
