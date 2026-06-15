@@ -16,5 +16,14 @@
     {%- include footer.html -%}
 
   </body>
+<script>
+  document.querySelectorAll("h1, h2").forEach((heading) => {
+    heading.addEventListener("click", async () => {
+      const headingName = heading.id;
+      if (!headingName) return;
+        window.location.hash = headingName;
+    });
+  });
+</script>
 
 </html>

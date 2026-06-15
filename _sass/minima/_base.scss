@@ -60,6 +60,18 @@ figure,
   margin-bottom: $spacing-unit / 2;
 }
 
+.post-content h1,
+.post-content h2 {
+  cursor: pointer;
+  border-bottom: 1px solid #ccccccf9;
+}
+
+.post-content h1 strong:hover,
+.post-content h2 strong:hover {
+  color:$brand-color;
+}
+
+
 /* 手順（li）ごとにまとまりを持たせるため、下方向に余白を設ける */
 ol > li {
   margin-bottom: 2em;
