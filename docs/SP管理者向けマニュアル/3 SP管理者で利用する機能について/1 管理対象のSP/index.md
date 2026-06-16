@@ -9,7 +9,7 @@ title : 1 管理対象のSP
 
 {% capture body %}
 [Orthros マイページ](https://ui.orthros.gakunin.nii.ac.jp)にログインの上確認をお願いします。  
-※テスト環境の場合は(https://ui-stg.orthros.gakunin.nii.ac.jp)  となります。  
+※テスト環境の場合は([https://ui-stg.orthros.gakunin.nii.ac.jp](https://ui-stg.orthros.gakunin.nii.ac.jp))  となります。  
 「SP管理」メニューが表示されるためには、対象アカウントに対してSP管理権限の付与が必要となります。  
 SP管理権限の付与については申請が必要となります。  
 申請方法はマイページよりお問い合わせください。（お問い合わせ方法は[利用マニュアル](/docs/利用マニュアル/)の「[お問い合わせ方法](/docs/利用マニュアル/#お問い合わせについて)」をご参照ください。）
