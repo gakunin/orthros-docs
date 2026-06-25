@@ -67,6 +67,12 @@ Orthrosテスト環境: [https://ui-stg.orthros.gakunin.nii.ac.jp/](https://ui-s
 　      **確認作業終了後、貴SPからもログインいただき問題ないことが確認でき次第、当該許可は解除いただいて差し支えございません。**  
   
 \[テスト環境\]  
+{% capture body %}
+・開発・検証目的のSPに対する接続確認は基本はOrthrosテスト環境との接続をお願いします  
+・Orthrosテスト環境は利用者自身がアカウントの登録が行えますので、必要に応じてSP側でのアクセス制御の実施をお願いします  
+{% endcapture %}  
+{% include github-important.html content=body %}  
+
 ・接続SPのentityID※1：  
 ・OrthrosのSP管理者として登録する方のOrthrosアカウントID（メールアドレス）※2：  
 ・サービス名称：  
