@@ -24,10 +24,16 @@ Orthrosと接続を希望するSPにつきまして、SP管理者の方には以
 #### 1\. Orthros上でご自身のアカウント登録を行い、Orthros窓口へ連絡
 
 利用マニュアルの「[新規アカウント登録](/docs/利用マニュアル/#新規アカウント登録)」に従って、Orthrosにアカウント登録をお願いします。  
-ただし、後述するテストフェデレーションのSPへも接続を希望される方は下記URLからOrthrosテスト環境にもアカウント登録を行ってください。  
+ただし、Orthrosテスト環境への接続を希望される方（学認のテストフェデレーション参加済みのSPとの接続を希望される方）は下記URLからOrthrosテスト環境にもアカウント登録を行ってください。  
 Orthrosテスト環境: [https://ui-stg.orthros.gakunin.nii.ac.jp/](https://ui-stg.orthros.gakunin.nii.ac.jp/)  
 登録されたメールアドレスとともに、以下の情報をOrthrosお問い合わせ窓口までお知らせください。  
 お問い合わせ窓口は、利用マニュアルの「[お問い合わせ方法](/docs/利用マニュアル/#お問い合わせについて)」をご参照ください。  
+
+{% capture body %}
+Orthrosの本運用環境・テスト環境は、それぞれ学認の運用フェデレーション・テストフェデレーションに対応するものです  
+特に開発・検証目的のSPについては、原則としてOrthrosテスト環境との接続をお願いします  
+{% endcapture %}  
+{% include github-important.html content=body %}  
   
 \======================================
 
@@ -68,8 +74,7 @@ Orthrosテスト環境: [https://ui-stg.orthros.gakunin.nii.ac.jp/](https://ui-s
   
 \[テスト環境\]  
 {% capture body %}
-・開発・検証目的のSPに対する接続確認は基本はOrthrosテスト環境との接続をお願いします  
-・Orthrosテスト環境は利用者自身がアカウントの登録が行えますので、必要に応じてSP側でのアクセス制御の実施をお願いします  
+Orthrosテスト環境自体にはアクセスに制限がなく、利用者が自由にアカウント登録を行えますので、開発・検証の用途には必要に応じてSP側でのアクセス制御の実施をお願いします  
 {% endcapture %}  
 {% include github-important.html content=body %}  
 
