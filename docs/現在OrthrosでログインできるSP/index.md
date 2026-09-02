@@ -1,5 +1,9 @@
+---
+title : 現在OrthrosでログインできるSP
+---
+
 現在SP側で設定が完了し、OrthrosでログインできるようになっているSPは以下の通りです。<br>
-問題等ございましたら[お問い合わせ先](/docs/Orthros%20ヘルプ/README.md#サービスに関するお問い合わせ窓口)までご連絡ください。
+問題等ございましたら[お問い合わせ先](/docs/Orthros%20ヘルプ/#サービスに関するお問い合わせ窓口)までご連絡ください。
 
 * [AMEDデータ利活用プラットフォーム運用環境](https://prod-www.cannds.amed.go.jp/)
 * [eduroam JP申請システム](https://office.eduroam.jp)
@@ -28,7 +32,7 @@
 * [しぼすけ](https://shibosuke.net/)
 * [デジタルバッジ・パーソナルウォレット](https://wallet.o3edu.jp)
 * [東洋経済デジタルコンテンツライブラリー](https://gakunin.toyokeizai.net/)
-* [豊橋技術科学大学 HPCポータル](https://hpcportal.imc.tut.ac.jp)
+* [豊橋技術科学大学 HPCポータル](https://hpcportal.imc.tut.ac.jp)  
 * [奈良先端科学技術大学院大学電子ラボノート-ミラーリングサーバー](http://shoko01.naist.jp/)
 * [未病データカタログ](https://ms2db.ir.rcos.nii.ac.jp/)
 * （以上、サービス名順）

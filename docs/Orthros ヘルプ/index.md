@@ -1,6 +1,13 @@
->[!NOTE]
->現在のお知らせはありません。  
->[【お知らせ一覧】](/docs/お知らせ一覧/README.md)  
+---
+title : Orthros ヘルプ
+---
+
+{% capture body %}
+現在のお知らせはありません。  
+[【お知らせ一覧】](/docs/お知らせ一覧/)  
+{% endcapture %}  
+{% include github-note.html content=body %}  
+
 
 ## **目次**
 
@@ -14,108 +21,115 @@
 * [**Orthrosについて**](https://ui.orthros.gakunin.nii.ac.jp/ja/pages/about)
 * [**プライバシーポリシー**](https://ui.orthros.gakunin.nii.ac.jp/ja/pages/privacy-policy)
 * [**利用規約**](https://ui.orthros.gakunin.nii.ac.jp/ja/pages/terms-of-use)
-* [**Orthrosの利用方法**](/docs/利用マニュアル/README.md)
+* [**Orthrosの利用方法**](/docs/利用マニュアル/)
 
 ## **SPについて**
 
-* [**OrthrosでログインできるSPについて**](/docs/現在OrthrosでログインできるSP/README.md)
-* [**SP管理者向けマニュアル**](/docs/SP管理者向けマニュアル/README.md)
+* [**OrthrosでログインできるSPについて**](/docs/現在OrthrosでログインできるSP/)
+* [**SP管理者向けマニュアル**](/docs/SP管理者向けマニュアル/)
 
 
 ## **よくあるご質問**
 
 #### Q.OpenIdPからOrthrosへの移行作業を忘れていました
 
-<details>
+<details markdown="1">
 
-**<summary>ご回答</summary>**
+<summary>ご回答</summary>
 
 移行期間（2023年10月〜2024年3月）は終了となっておりますので、以下のご対応をお願いします。
 
 ・学認クラウドゲートウェイサービスの場合
 
-[Q.学認クラウドゲートウェイサービス上のメンバーが移行期間（2023年10月〜2024年3月）に移行せずに移行期間が終了した場合はどうなりますか？](/docs/よくある問合せ一覧/README.md#q学認クラウドゲートウェイサービス上のメンバーが移行期間2023年10月2024年3月に移行せずに移行期間が終了した場合はどうなりますか)を参照
+[Q.学認クラウドゲートウェイサービス上のメンバーが移行期間（2023年10月〜2024年3月）に移行せずに移行期間が終了した場合はどうなりますか？](/docs/よくある問合せ一覧/#q学認クラウドゲートウェイサービス上のメンバーが移行期間2023年10月2024年3月に移行せずに移行期間が終了した場合はどうなりますか)を参照
 
 ・学認クラウドゲートウェイサービス以外のSPの場合
 
-「[Orthrosアカウント作成](/docs/利用マニュアル/README.md#新規アカウント登録)」後、アカウントご利用できるようにSP側へご対応（紐づけ直しあるいは新規アカウントへの移行）をご依頼いただくようお願いいたします。（ただし、SP側で対応が可能であることを保証するものではございません）  
-SP側へご依頼する際に必要なOrthrosアカウントのePPNにつきましては、[Orthrosマイページ](/docs/利用マニュアル/README.md#orthrosマイページへのサインイン)にて確認可能となっております。
+「[Orthrosアカウント作成](/docs/利用マニュアル/#新規アカウント登録)」後、アカウントご利用できるようにSP側へご対応（紐づけ直しあるいは新規アカウントへの移行）をご依頼いただくようお願いいたします。（ただし、SP側で対応が可能であることを保証するものではございません）  
+SP側へご依頼する際に必要なOrthrosアカウントのePPNにつきましては、[Orthrosマイページ](/docs/利用マニュアル/#orthrosマイページへのサインイン)にて確認可能となっております。
 
 </details>
 
 #### Q.パスワードを何度も間違えアカウントがロックされました
 
-<details>
+<details markdown="1">
 
-**<summary>ご回答</summary>**
+<summary>ご回答</summary>
 
 しばらく時間をおいてから再度実施をしてください
 
 （ロックされている状態でさらに間違え回数が増えるとロック期間が長くなります）  
-直ぐにロックを解除したい場合は、「[パスワードを忘れた場合](/docs/利用マニュアル/README.md#パスワードを忘れた場合)」からパスワードの再設定を行ってください
+直ぐにロックを解除したい場合は、「[パスワードを忘れた場合](/docs/利用マニュアル/#パスワードを忘れた場合)」からパスワードの再設定を行ってください
 
 </details>
 
 #### Q.アカウントが不要になったので削除したいです
 
-<details>
+<details markdown="1">
 
-**<summary>ご回答</summary>**
+<summary>ご回答</summary>
 
-マイページの「[アカウント削除](/docs/利用マニュアル/README.md#アカウント削除)」から削除を行ってください
+マイページの「[アカウント削除](/docs/利用マニュアル/#アカウント削除)」から削除を行ってください
 
-<img src="/images/github_caution_icon.png" width="11%" /><br>
+{% capture body %}
 削除を行うと同じメールアドレスでの再登録は出来なくなります
+{% endcapture %}  
+{% include github-note.html content=body %}  
 
 </details>
 
 #### Q.ログインができない状態ですが、アカウントを削除してほしいです
 
-<details>
+<details markdown="1">
 
-**<summary>ご回答</summary>**
+<summary>ご回答</summary>
 
-「[パスワードを忘れた場合](/docs/利用マニュアル/README.md#パスワードを忘れた場合)」からパスワードの再設定を行って頂き、マイページにログイン後、マイページの「アカウント削除」から削除を行ってください
+「[パスワードを忘れた場合](/docs/利用マニュアル/#パスワードを忘れた場合)」からパスワードの再設定を行って頂き、マイページにログイン後、マイページの「アカウント削除」から削除を行ってください
 
 </details>
 
 #### Q.アカウントを作成する際のメールアドレスに、メーリングリストを利用することは可能ですか？
 
-<details>
+<details markdown="1">
 
-**<summary>ご回答</summary>**
+<summary>ご回答</summary>
 
 Orthrosでは1つのアカウントにおいて同一人物が使用するポリシーとなっております。  
-そのため、利用者ごとにOrthrosアカウントを作成頂くよういただくようお願いいたします。
+そのため、利用者ごとにOrthrosアカウントを作成いただくようお願いいたします。
 
-<img src="/images/github_note_icon.png" width="11%" /><br>
+{% capture body %}
 詳細につきましては[利用規約](https://ui.orthros.gakunin.nii.ac.jp/ja/pages/terms-of-use)をご確認ください。  
-また、複数アカウントのご利用につきましては「[Q.同じ利用者が異なるメールアドレスで複数アカウントを作成することは可能ですか？](/docs/よくある問合せ一覧/README.md#q同じ利用者が異なるメールアドレスで複数アカウントを作成することは可能ですか)」を参照ください。
+また、複数アカウントのご利用につきましては「[Q.同じ利用者が異なるメールアドレスで複数アカウントを作成することは可能ですか？](/docs/よくある問合せ一覧/#q同じ利用者が異なるメールアドレスで複数アカウントを作成することは可能ですか)」を参照ください。
+{% endcapture %}  
+{% include github-note.html content=body %}  
 
 </details>
 
->[!NOTE]
->**その他のよくあるご質問は**[**こちら**](/docs/よくある問合せ一覧/README.md)
+{% capture body %}
+**その他のよくあるご質問は**[**こちら**](/docs/よくある問合せ一覧/)
+{% endcapture %}  
+{% include github-note.html content=body %}  
 
 ## **お問い合わせ**
 サービス自体へのお問い合わせにつきましては、それぞれのサービスの窓口へお願いします
 
 ### サービスに関するお問い合わせ窓口
+
 | サービス名 | お問い合わせ先 |
 | :-- | :-- |
 | AMEDデータ利活用プラットフォーム運用環境 | お問い合わせフォームは[こちら](https://www.amed.go.jp/program/list/14/04/cannds-home.html) |
 | eduroam JP申請システム | お問い合わせフォームは[こちら](https://www.eduroam.jp/for_admin/contact) |
 | eduroam JP 認証連携IDサービス | お問い合わせフォームは[こちら](https://www.eduroam.jp/for_admin/contact) |
-| OZONE-EDU | お問い合わせは下記まで  <br><img src="/images/o3edu-mail.png" width="60%"> |
+| OZONE-EDU | お問い合わせは下記まで<br><img src="/images/o3edu-mail.png" class="mail"> |
 | GakuNin Federated Computing Services at NII (trial) | お問い合わせフォームは[こちら](https://rcos.nii.ac.jp/service/cs/) |
 | GakuNin RDM | お問い合わせフォームは[こちら](https://support.rdm.nii.ac.jp/) |
 | meatmail | お問い合わせフォームは[こちら](https://nii-auth.atlassian.net/wiki/spaces/meatmailniiacjp/pages/36274344) |
 | NII研究クラウド | お問い合わせフォームは[こちら](https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=29229288) |
-| NII研究クラウド(abc) | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
-| NII研究クラウド(xyz) | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
-| NII 研究データ基盤 | お問い合わせは下記まで  <br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
-| STEP10聴講申請システム | お問い合わせは下記まで  <br><img src="/images/STEP10-mail.png" width="60%"> |
-| インタークラウド - Jupyter Notebook | お問い合わせは下記まで  <br><br><img src="/images/nii-cloud-operation-mail.png" width="60%"> |
+| NII研究クラウド(abc) | お問い合わせは下記まで<br><img src="/images/nii-cloud-operation-mail.png" class="mail"> |
+| NII研究クラウド(xyz) | お問い合わせは下記まで<br><img src="/images/nii-cloud-operation-mail.png" class="mail"> |
+| NII 研究データ基盤 | お問い合わせは下記まで<br><img src="/images/nii-cloud-operation-mail.png" class="mail"> |
+| STEP10聴講申請システム | お問い合わせは下記まで<br><img src="/images/STEP10-mail.png" class="mail"> |
+| インタークラウド - Jupyter Notebook | お問い合わせは下記まで<br><img src="/images/nii-cloud-operation-mail.png" class="mail"> |
 | 科学技術の学術情報共有のための双方向コミュニケーションサービス | お問い合わせフォームは[こちら](https://c.yz.yamagata-u.ac.jp/amenity/splash.asp) |
 | 学認LMS | お問い合わせフォームは[こちら](https://contents.nii.ac.jp/lms_support/faq) |
 | 学認クラウドオンデマンド構築サービス<br>※このサービスの説明は[こちら](https://cloud.gakunin.jp/ocs/)（ログイン方法は各自ご確認ください） | お問い合わせフォームは[こちら](https://cloud.gakunin.jp/ocs/) |
@@ -124,7 +138,7 @@ Orthrosでは1つのアカウントにおいて同一人物が使用するポリ
 | しぼすけ | お問い合わせフォームは[こちら](https://shibosuke.net/shibosuke/contact/) |
 | デジタルバッジ・パーソナルウォレット | お問い合わせフォームは[こちら](https://o3edu.osaka-kyoiku.ac.jp/contact) |
 | 東洋経済デジタルコンテンツライブラリー | お問い合わせフォームは[こちら](https://biz.toyokeizai.net/-/dcl/) |
-| 奈良先端科学技術大学院大学電子ラボノート-ミラーリングサーバー | お問い合わせフォームは[こちら](http://www-dsc.naist.jp/) または、下記まで  <br><img src="/images/naist-eln-mail.png" width="60%">  | 
+| 奈良先端科学技術大学院大学電子ラボノート-ミラーリングサーバー | お問い合わせは下記まで<br><img src="/images/naist-eln-mail.png" class="mail"> |
 | 未病データカタログ | お問い合わせフォームは[こちら](https://rcos.nii.ac.jp/) |
 
 ### Orthrosお問い合わせ窓口

@@ -1,0 +1,387 @@
+/**
+ * Reset some basic elements
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+    $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  cursor: pointer;
+  border-bottom: 1px solid #ccccccf9;
+}
+
+.post-content h1:hover,
+.post-content h2:hover,
+.post-content h3:hover {
+  color:$brand-color;
+}
+
+
+/* 手順（li）ごとにまとまりを持たせるため、下方向に余白を設ける */
+ol > li {
+  margin-bottom: 2em;
+}
+
+/* brを持つ箇条書きは内容にまとまりを持たせるため、下方向に余白を設ける */
+li:has(br) {
+  margin-bottom: 2em;
+}
+
+/* 
+ * 以下は余白を詰める
+ * - brを持たないli：短文（1行）を想定（ ol > li の上書き）
+ * - ul/ol直前のp：リストの見出し的役割を想定（h2やh3ほどの大きさがないため、余白があると不自然に見える）
+ */
+li:not(:has(br)),
+p:has(+ ul),
+p:has(+ ol) {
+  margin-bottom: 0px;
+}
+
+/**
+ * `main` element
+ */
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.post-content img {
+  border: 1px solid #ccccccf9;
+}
+
+img.mail {
+  max-width: none;
+  border: none;
+  height: 1em;
+  width: auto;
+}
+
+img.info {
+  height: 20em;
+  width: auto;
+  vertical-align: middle;
+  max-width: none;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+/**
+ * Lists
+ */
+ul,
+ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: $spacing-unit / 2;
+  }
+}
+
+/**
+ * Headings
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $base-font-weight;
+}
+
+/**
+ * Links
+ */
+a {
+  color: $brand-color;
+  text-decoration: underline;
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: $grey-color;
+  border-left: 4px solid $grey-color-light;
+  padding-left: $spacing-unit / 2;
+  @include relative-font-size(1.125);
+  letter-spacing: -1px;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  @include relative-font-size(0.9375);
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width: calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+}
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+ * Icons
+ */
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #{$grey-color};
+  padding-right: 5px;
+  vertical-align: text-top;
+}
+
+.social-media-list {
+  li + li {
+    padding-top: 5px;
+  }
+}
+
+/**
+ * Tables
+ */
+table {
+  margin-bottom: $spacing-unit;
+  width: 100%;
+  text-align: $table-text-align;
+  color: lighten($text-color, 18%);
+  border-collapse: collapse;
+  border: 1px solid $grey-color-light;
+  tr {
+    &:nth-child(even) {
+      background-color: lighten($grey-color-light, 6%);
+    }
+  }
+  th,
+  td {
+    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+  }
+  th {
+    background-color: lighten($grey-color-light, 3%);
+    border: 1px solid darken($grey-color-light, 4%);
+    border-bottom-color: darken($grey-color-light, 12%);
+  }
+  td {
+    border: 1px solid $grey-color-light;
+  }
+}
+
+/**
+ * Details
+ */
+// 「よくあるご質問」「Orthrosヘルプ」での使用を想定
+details {
+  margin-bottom: 2rem;
+}
+
+h4:has(+ details) {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+/**
+ * Markdown Alerts
+ */
+.markdown-alert p {
+  margin-top: 1rem;
+  white-space: normal;
+}
+
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  color: inherit;
+  border-left: 0.25em solid #30363d;
+}
+.markdown-alert > :first-child {
+  margin-top: 0;
+}
+.markdown-alert > :last-child {
+  margin-bottom: 0;
+}
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1;
+}
+.markdown-alert svg {
+  margin-right: 0.5rem !important;
+}
+.markdown-alert svg path {
+  fill: currentColor;
+}
+.markdown-alert.markdown-alert-note {
+  border-left-color: #4493f8;
+}
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: #4493f8;
+}
+.markdown-alert.markdown-alert-important {
+  border-left-color: #ab7df8;
+}
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: #ab7df8;
+}
+.markdown-alert.markdown-alert-warning {
+  border-left-color: #9e6a03;
+}
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: #d29922;
+}
+.markdown-alert.markdown-alert-tip {
+  border-left-color: #238636;
+}
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: #3fb950;
+}
+.markdown-alert.markdown-alert-caution {
+  border-left-color: #da3633;
+}
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: #f85149;
+}

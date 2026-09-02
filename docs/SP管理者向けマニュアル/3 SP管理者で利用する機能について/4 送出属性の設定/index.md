@@ -1,0 +1,63 @@
+---
+title : 4 送出属性の設定
+---
+
+## 概要
+
+OrthrosからSPに対して送出されるユーザー属性について、送出する／しないを設定することが出来ます。
+{% capture body %}
+SPとの接続を実施する際にSPが必要とする属性を本機能により設定する必要があります。不要な属性についてはチェックを外してください。  
+初期設定としては eduPersonPrincipalName (ePPN) と eduPersonTargetedID (ePTID) がチェックされている状態となります。  
+必要に応じて追加・変更を行ってください。
+{% endcapture %}  
+{% include github-warning.html content=body %}  
+
+{% capture body %}
+現行システムの制限事項として、eduPersonTargetedID (ePTID)は送出する・しないの設定に関わらず、NameIDとして必ず送出されます。
+{% endcapture %}  
+{% include github-caution.html content=body %}  
+
+## 手順
+
+{% capture body %}
+[Orthros マイページ](https://ui.orthros.gakunin.nii.ac.jp)にログインの上確認をお願いします。  
+※テスト環境の場合は([https://ui-stg.orthros.gakunin.nii.ac.jp](https://ui-stg.orthros.gakunin.nii.ac.jp))  となります。  
+「SP管理」メニューが表示されるためには、対象アカウントに対してSP管理権限の付与が必要となります。  
+SP管理権限の付与については申請が必要となります。  
+申請方法はマイページよりお問い合わせください。（お問い合わせ方法は[利用マニュアル](/docs/利用マニュアル/)の「[お問い合わせ方法](/docs/利用マニュアル/#お問い合わせについて)」をご参照ください。）
+{% endcapture %}  
+{% include github-note.html content=body %}  
+
+1. ユーザー名のプルダウンからSP管理を選択します。<br>
+    <img src="/images/SPに対しOrthrosが送出する属性の設定-1.png" width="54%">
+
+2. 該当SPの「管理」ボタンをクリックします。<br>
+    <img src="/images/SPに対しOrthrosが送出する属性の設定-2.png" width="51.4%">
+
+3. 「送出属性の設定」タブをクリックします。<br>
+    <img src="/images/SPに対しOrthrosが送出する属性の設定-3.png" width="40%">
+
+4. 各設定を行い、「送出属性の更新」ボタンをクリックします。
+    {% capture body %}
+    **属性の送出について**  
+    各属性にチェックが入っている場合 送出され、チェックが外れている場合 送出されません。  
+    **ただし、現行システムの制限事項として、eduPersonTargetedID (ePTID)は送出する・しないの設定に関わらず、NameIDとして必ず送出されます。**
+    {% endcapture %}  
+    {% include github-note.html content=body %}  
+
+    <br><img src="/images/SPに対しOrthrosが送出する属性の設定-4.png" width="40%">
+
+
+表4 項目一覧
+
+| 項目 | 説明 |
+| --- | --- |
+| eduPersonPrincipalName | フェデレーション内の利用者を一意に定めます |
+| mail | 電子メールアドレス |
+| displayName | 英字氏名（表示名） |
+| surname | 英字氏名（姓）  <br>※一部ユーザーについては本属性が設定されていない場合があります |
+| givenName | 英字氏名（名） |
+| jaDisplayName | 日本語氏名（表示名） |
+| jaSurname | 日本語氏名（姓）<br>※一部ユーザーについては本属性が設定されていない場合があります |
+| jaGivenName | 日本語氏名（名）|
+| eduPersonTargetedID | フェデレーション内の利用者を識別する仮名<br>**※現行システムの制限事項として本属性は送出する・しないの設定に関わらず、NameIDとして必ず送出されます** |
