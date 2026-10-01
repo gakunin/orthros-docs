@@ -20,6 +20,8 @@ title : お知らせ一覧
 現在、xID社にて原因の調査が行われております。  
 進展があり次第、改めてご案内いたします。  
   
+※詳細については[こちら](https://xid.inc/news/286)  
+
 ※xIDについては[こちら](https://xid.inc/home)  
 ※xIDアプリについては[こちら](https://xid.inc/application)  
 {% endcapture %}
