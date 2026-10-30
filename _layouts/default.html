@@ -24,6 +24,11 @@
         window.location.hash = headingName;
     });
   });
+
+  if(location.pathname === "/docs/"){
+    window.location.href = location.origin;
+  }
+
 </script>
 
 </html>
